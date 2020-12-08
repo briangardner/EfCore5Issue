@@ -13,7 +13,9 @@ namespace Test.Functions
             {
                 throw new ArgumentNullException(nameof(builder));
             }
-            
+
+            builder.Services.AddSomeDependencies();
+
         }
     }
 }
